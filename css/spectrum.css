@@ -291,7 +291,6 @@ a.light-text:focus {
 }
 
 .navbar {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
 }
@@ -578,7 +577,7 @@ a.light-text:focus {
     .intro-video .brand-heading,
     .intro-img-half .brand-heading,
     .intro-slider-half .brand-heading {
-        font-size: 55px;
+        font-size: 40px;
     }
 
     .intro-img .intro-body,
@@ -624,7 +623,7 @@ a.light-text:focus {
     .intro-video .brand-heading,
     .intro-img-half .brand-heading,
     .intro-slider-half .brand-heading {
-        font-size: 70px;
+        font-size: 50px;
     }
 }
 
@@ -2125,6 +2124,10 @@ ul#filters li button.btn-link.active {
     margin-bottom: 15px;
 }
 
+.col-md-4 p {
+    font-size: 16px;
+}
+
 .btn {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -3161,8 +3164,13 @@ fieldset[disabled] .btn-danger.active {
     background-color: #cd332d;
 }
 
+.footer-1 {
+    text-align: center;
+	padding-bottom: 0px;
+}
+
 .footer-1 .upper {
-    padding: 50px 0;
+    padding: 25px 0;
     color: #f4f5f7;
     background-color: #272b31;
 }
@@ -3172,16 +3180,16 @@ fieldset[disabled] .btn-danger.active {
 }
 
 .footer-1 .upper h2 {
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .footer-1 .upper h4 {
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
 }
 
 .footer-1 .upper .footer-links li {
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .footer-1 .upper .footer-links li a {
@@ -3193,8 +3201,9 @@ fieldset[disabled] .btn-danger.active {
 }
 
 .footer-1 .lower {
-    padding: 15px 0;
-    background-color: #111214;
+    padding: 25px 0;
+	padding-top: 0px;
+    background-color: #272b31;
 }
 
 .footer-1 .lower .small {
