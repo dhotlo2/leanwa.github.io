@@ -12,14 +12,15 @@ $(function() {
             var email = $("input#email").val();
             var message = $("textarea#message").val();
             }
-            $.ajax({
-                url: "//forms.brace.io/hello@leanwa.com",
-                type: "POST",
-                data: {
-                    name: name,
+			
+			
+			$.ajax({
+			    url: "//forms.brace.io/you@email.com", 
+			    method: "POST",
+			    data: {name: name,
                     email: email,
-                    message: message
-                	},
-				dataType: "json"
-    		});
+                    message: message},
+			    dataType: "json"
+			});
+			
 });
