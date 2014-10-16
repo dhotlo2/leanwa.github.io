@@ -510,7 +510,7 @@
                     </div>
                     <div class="col-lg-5 col-lg-offset-1" data-scrollreveal="enter right over 1s">
                         <br>
-                        <form name="sentMessage" id="contactForm" novalidate>
+                        <form name="sentMessage" id="contactForm" action="//forms.brace.io/hello@leanwa.com" novalidate>
                             <div class="row control-group">
                                 <div class="form-group col-xs-12 floating-label-form-group controls">
                                     <label>Name</label>
@@ -521,14 +521,14 @@
                             <div class="row control-group">
                                 <div class="form-group col-xs-12 floating-label-form-group controls">
                                     <label>Email Address</label>
-                                    <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <input type="email" class="form-control" placeholder="Email Address" id="email" name="_replyto" required data-validation-required-message="Please enter your email address.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="row control-group">
                                 <div class="form-group col-xs-12 floating-label-form-group controls">
                                     <label>Message</label>
-                                    <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea rows="5" name="body" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
