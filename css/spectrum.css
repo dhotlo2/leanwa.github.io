@@ -1097,6 +1097,23 @@ a.light-text:focus {
     .about-img-4 {
         background-image: url(../img/demo-portraits/portrait-4.jpg);
     }
+	
+    .about-img-5 {
+        background-image: url(../img/demo-portraits/portrait-5.jpg);
+    }
+	
+    .about-img-6 {
+        background-image: url(../img/demo-portraits/portrait-6.jpg);
+    }
+	
+    .about-img-7 {
+        background-image: url(../img/demo-portraits/portrait-7.jpg);
+    }
+	
+    .about-img-8 {
+        background-image: url(../img/demo-portraits/portrait-8.jpg);
+    }
+	
 }
 
 .blog-1 .blog-col {
