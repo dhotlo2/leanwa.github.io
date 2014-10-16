@@ -15,7 +15,7 @@ $(function() {
 			
 			
 			$.ajax({
-			    url: "//forms.brace.io/you@email.com", 
+			    url: "//forms.brace.io/hello@leanwa.com", 
 			    method: "POST",
 			    data: {
 					name: name,
