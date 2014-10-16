@@ -17,9 +17,11 @@ $(function() {
 			$.ajax({
 			    url: "//forms.brace.io/you@email.com", 
 			    method: "POST",
-			    data: {name: name,
+			    data: {
+					name: name,
                     email: email,
-                    message: message},
+                    message: message
+				},
 			    dataType: "json"
 			});
 			
